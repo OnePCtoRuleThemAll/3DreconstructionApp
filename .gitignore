@@ -33,6 +33,4 @@ outputs/dataset_01/MVSNet/PatchmatchNet/pair.txt
 *.bin
 /outputs/dataset_02/colmap/sparse
 /outputs
-/tools/colmap
-/tools/meshroom/Meshroom-2025.1.0
-/tools/PatchmatchNet
+
