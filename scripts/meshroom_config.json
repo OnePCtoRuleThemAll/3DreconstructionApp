@@ -1,0 +1,69 @@
+{
+    "FeatureExtraction_1": {
+        "describerPreset": "normal",
+        "forceCpuExtraction": "0",
+        "describerTypes": [
+            "sift"
+        ],
+        "verboseLevel":"info"
+    },
+    "FeatureMatching_1": {
+        "guidedMatching": "0",
+        "describerTypes": [
+            "sift"
+        ],
+        "verboseLevel":"info"
+
+    },
+    "StructureFromMotion_1": {
+        "useLocalBA": "1",
+        "lockAllIntrinsics": "0",
+        "describerTypes": [
+            "sift"
+        ],
+        "minInputTrackLength":"2",
+        "lockScenePreviouslyReconstructed": "0",
+        "maxNumberOfMatches": "0",
+        "verboseLevel":"info"
+
+    },
+    "PrepareDenseScene_1": {
+        "verboseLevel":"info"
+    },
+    "DepthMap_1": {
+        "downscale": "2",
+        "verboseLevel":"info"
+    },
+    "DepthMapFilter_1": {
+        "minNumOfConsistentCams": "3",
+        "minNumOfConsistentCamsWithLowSimilarity": "4",
+        "verboseLevel":"info"
+    },
+
+    "Meshing_1": {
+        "maxInputPoints": "50000000",
+        "maxPoints": "5000000",
+        "estimateSpaceMinObservationAngle": "10",
+        "colorizeOutput": "1",
+        "saveRawDensePointCloud": "1",
+        "verboseLevel":"info"
+
+    },
+
+    "MeshFiltering_1": {
+        "keepLargestMeshOnly":"0",
+        "verboseLevel":"info"
+
+    },
+
+    "Texturing_1": {
+        "textureSide": "8192",
+        "downscale":"1",
+        "unwrapMethod":"Basic",
+        "useUDIM":"1",
+        "fillHoles":"0",
+        "verboseLevel":"info"
+
+    }
+    
+}
