@@ -1,0 +1,1 @@
+download tool from https://github.com/colmap/colmap and place it here
