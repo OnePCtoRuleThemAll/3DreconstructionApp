@@ -6,3 +6,8 @@ Tools required for this app:
     - Meshroom
     - MiDaS neural network
     - PatchmatchNet
+
+Dataset 2 was downloaded from Colmap web
+Datasets 3-5 were downloaded here:
+https://github.com/OpenDroneMap/ODMdata
+https://github.com/AlansCodeLog/photogrammetry-test-sets
